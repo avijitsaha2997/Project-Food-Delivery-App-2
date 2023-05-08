@@ -3,6 +3,8 @@ import Delivery from "../img/delivery.png";
 import HeroBg from "../img/heroBg.png";
 import { heroData } from "../utils/data";
 
+
+//this is the Home container functiona
 const HomeContainer = () => {
   return (
     <section id="home" className="grid grid-cols-1 md:grid-cols-2 gap-2 w-full">
@@ -38,6 +40,7 @@ const HomeContainer = () => {
           Order Now
         </button>
       </div>
+      
       <div className="py-2 flex-1 flex items-center relative">
         <img
           src={
